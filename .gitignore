@@ -1,0 +1,56 @@
+# Environment and Secrets (Root, Backend, Frontend)
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+!*.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+*.pem
+*.key
+
+# Logs
+*.log
+
+# Python Virtual Environments & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+venv-*/
+.venv/
+ENV/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node.js & Vite
+node_modules/
+dist/
+dist-ssr/
+.vite/
+.npm
+*.local
+.eslintcache
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Antigravity artifacts/scratch (keep repo clean)
+scratch/
